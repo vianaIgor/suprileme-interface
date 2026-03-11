@@ -1,16 +1,60 @@
-# React + Vite
+🛒 Suprileme E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Sobre o Projeto
 
-## React Compiler
+O Suprileme Interface é o frontend de uma plataforma de gerenciamento de vendas e pedidos.
+A aplicação foi desenvolvida para fornecer uma interface intuitiva para administração de produtos, pedidos e categorias, consumindo uma API REST responsável pela lógica de negócio e persistência de dados.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O sistema permite:
+  - Gerenciamento de produtos.
+  - Gerenciamento de categorias.
+  - Criação e acompanhamento de pedidos.
+  - Autenticação de usuários.
+  - Integração com pagamentos.
+<br>
+<br>
+Este projeto se conecta com a API backend:
+  ➡ https://github.com/vianaIgor/Suprileme-API
+<br>
+<br>
+🏗️ Arquitetura do Projeto
+  src<br>
+  │<br>
+  ├── assets<br>
+  │   └── imagens e arquivos estáticos<br>
+  │<br>
+  ├── components<br>
+  │   └── componentes reutilizáveis da interface<br>
+  │<br>
+  ├── pages<br>
+  │   └── páginas principais da aplicação<br>
+  │<br>
+  ├── services<br>
+  │   └── comunicação com API (Axios)<br>
+  │<br>
+  ├── styles<br>
+  │   └── estilos globais<br>
+  │<br>
+  └── App.jsx<br>
+<br>
+<br>
+🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Principais tecnologias utilizadas no projeto:<br>
+  ReactJS<br>
+  Vite<br>
+  JavaScript<br>
+  Axios<br>
+  React Router<br>
+  Styled Components<br>
+<br>
+<br>
+🔐 Funcionalidades
+  ✔ Autenticação de usuários.<br>
+  ✔ Cadastro de produtos.<br>
+  ✔ Gerenciamento de categorias.<br>
+  ✔ Upload de imagens.<br>
+  ✔ Criação e acompanhamento de pedidos.<br>
+  ✔ Integração com pagamentos.<br>
